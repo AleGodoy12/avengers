@@ -26,7 +26,7 @@ def sumaDigitos(numero):
 num= int(input("Ingrese números: "))
 while num != 0:
     print("Suma:",sumaDigitos(num))
-    num=int(input("Ingrese números: "))
+    num= int(input("Ingrese números: "))
 
 
 
@@ -37,17 +37,17 @@ while num != 0:
 
 def sumaDigitos(numero):
     suma=0
-    while numero!=0:
-        digito=numero%10
-        suma=suma+digito
+    while numero != 0:
+        digito=numero %10
+        suma=suma + digito
     return suma
 
  
 sumatoria=0
-num=int(input("Ingrese números: "))
+num= int(input("Ingrese números: "))
 while num!=0:
     print("Suma:",sumaDigitos(num))
-    sumatoria=sumatoria+num
-    num=int(input("Ingrese números: "))
+    sumatoria=sumatoria + num
+    num= int(input("Ingrese números: "))
 print("Sumatoria:", sumatoria)
 print("Dígitos:", sumaDigitos(sumatoria))
