@@ -1,31 +1,31 @@
-#1. Solicitar al usuario que ingrese su dirección email. 
-#Imprimir un mensaje indicando si la dirección es válida o no, valiéndose de una función para decidirlo. 
-#Una dirección se considerará válida si contiene el símbolo "@"
+# #1. Solicitar al usuario que ingrese su dirección email. 
+# #Imprimir un mensaje indicando si la dirección es válida o no, valiéndose de una función para decidirlo. 
+# #Una dirección se considerará válida si contiene el símbolo "@"
 
-email= str(input("Ingrese su dirección de email: "))
-simbolo= "@"
+# email= str(input("Ingrese su dirección de email: "))
+# simbolo= "@"
                                                          
-def validar(correo):
-    for i in correo:
-        if i == simbolo:
-            return "Email valido"
-    return "No valido"
-print(validar(email))
+# def validar(correo):
+#     for i in correo:
+#         if i == simbolo:
+#             return "Email valido"
+#     return "No valido"
+# print(validar(email))
 
-#2. Solicitar números al usuario hasta que ingrese el cero. 
-#Por cada uno, mostrar la suma de sus dígitos (utilizando una función que realice dicha suma)
+# #2. Solicitar números al usuario hasta que ingrese el cero. 
+# #Por cada uno, mostrar la suma de sus dígitos (utilizando una función que realice dicha suma)
 
-def  sumadigitos (a) :                     # defino funcion (a) puede val
-    digitos =[int (x) for x in str(a)]     #va a leer el elemento
-    acumulador = 0                         #declaro el acumulador ene su posicion
-    for i in digitos:
-        acumulador+=i
-    return acumulador
-numero = input("Ingrese un numero")
-while numero !="0":                        # cero como string
-    print (sumadigitos(numero))
-    numero = input("Ingrese un numero")
-print ("Bucle finalizado")
+# def  sumadigitos (a) :                     # defino funcion (a) puede val
+#     digitos =[int (x) for x in str(a)]     #va a leer el elemento
+#     acumulador = 0                         #declaro el acumulador ene su posicion
+#     for i in digitos:
+#         acumulador+=i
+#     return acumulador
+# numero = input("Ingrese un numero")
+# while numero !="0":                        # cero como string
+#     print (sumadigitos(numero))
+#     numero = input("Ingrese un numero")
+# print ("Bucle finalizado")
 
 
 
