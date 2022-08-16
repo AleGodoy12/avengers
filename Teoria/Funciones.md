@@ -8,7 +8,7 @@
 
 ### ¿Que son y para que sirven las funciones?
 
-### Una función es una porción o bloque de código reutilizable que se encarga de realizar una determinada tarea.
+### Una fu nción es una porción o bloque de código reutilizable que se encarga de realizar una determinada tarea.
 ### Cualquier función tendrá un nombre, unos argumentos de entrada, un código a ejecutar y unos parámetros de salida.
 ### Las funciones nos ayudan a generar un codigo mas limpio y escalable porque cumplen con dos principios claves: 
 ### 1. El principio de reusabilidad, que nos dice que si por ejemplo tenemos un fragmento de código usado en muchos sitios, la mejor solución sería pasarlo a una función. Esto nos evitaría tener código repetido, y que modificarlo fuera más fácil, ya que bastaría con cambiar la función una vez.
