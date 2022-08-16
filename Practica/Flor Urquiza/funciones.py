@@ -37,18 +37,18 @@ print ("bucle finalizado")
 # Reutilizar la misma función realizada en el ejercicio 2.
 
 
-def  sumadigitos (a) :                     # defino funcion (a) puede val
-    digitos =[int (x) for x in str(a)]     #va a leer el elemento
-    acumulador = 0                         #declaro el acumulador ene su posicion
+def  sumadigitos (a) :                    
+    digitos =[int (x) for x in str(a)]    
+    acumulador = 0                        
     for i in digitos:
         acumulador+=i
     return acumulador
-sumatoria= 0
-numero = int(input("Ingrese un numero"))
-while numero !=0:                             # cero como string
+sumatot= 0
+numero = int(input("Ingrese un numero: "))
+while numero !=0:                             
     print ("Suma:",sumadigitos(numero))
-    sumatoria=sumatoria+numero
-    numero = int(input("Ingrese un numero"))
-print("Sumatoria:", sumatoria)
-print("Suma de dígitos:", sumadigitos(sumatoria))
+    sumatot=sumatot+numero
+    numero = int(input("Ingrese un numero: "))
+print("Sumatot:", sumatot)
+print("Suma de dígitos:", sumadigitos(sumatot))
 print ("Bucle finalizado")
