@@ -28,6 +28,12 @@ def datos(nombre, color):
     return nombre, color
 print("mi nombre es: " ,nombre, "y mi color favorito es :", color)
 
+#Azul, demuestras cada dia que puedes con los objetivos y los retos que se presentan.
+#entiendes las consignas, logras ver la logica en las resoluciones y mantienes un codigo bastante limpio.
+#no escribes de mas ni de menos, recuerda que es un proceso de aprendizaje, desafiante pero constante.
+#Muy bien las resoluciones, queda practicas un poco mas la sintaxis de las funciones para consolidar el conocimiento.
+
+#10/10
 
 
 

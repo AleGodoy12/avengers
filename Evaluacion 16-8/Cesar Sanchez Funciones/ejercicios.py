@@ -20,7 +20,7 @@ numerosIntermedios(numero1, numero2) """
 
 # 2. Escribir una función que, dado un número de DNI, retorne True si el número es válido y False si no lo es. Para que un número de DNI sea válido debe tener entre 7 y 8 dígitos.
 
-""" numero = int (input ("Escrtibe el número de DNI: "))
+numero = int (input ("Escrtibe el número de DNI: "))
 
 def documento (dni):
 
@@ -34,7 +34,7 @@ def documento (dni):
 
     return cantidad == 7 or cantidad == 8
 
-print(documento( numero )) """
+print(documento( numero ))
 
 
 
@@ -52,4 +52,10 @@ def nombre (nombre, color):
     return c
 
 nombre(tuNombre, colorFavorito) """
+
+#Cesar, estas integrando bien los conocimientos, puedes definir funciones, logras armar bucles y condicionales.
+#Reforzaremos la comprension de las consignas. Si bien las resoluciones estan bien armadas a nivel de codigo, en el ejercicio 2 no se 
+#entendio bien que habia que validar.
+
+#9/10
 

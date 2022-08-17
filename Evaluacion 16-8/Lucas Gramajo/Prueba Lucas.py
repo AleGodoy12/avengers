@@ -40,4 +40,8 @@ print("Felicidades tu nombre es: ", nomuser,  " y tu color favorito es el ", col
  
 
 
+#Lucas, vienes avanzando con cada tema, cada practico y mas aun en las evaluaciones.
+#esta bueno que pudiste notar ayer que lo mas simple, a veces es lo que mas trabajo nos lleva.
+#a nivel de codigo vienes sumando e integrando los conocimientos que vas adquiriendo y logras ponerlos en practica.
 
+#10/10

@@ -24,3 +24,9 @@ def nombreYcolor ():
     color= input("Ingrese su color favorito: ")
     return 'Su nombre es', nombre, 'y su color favorito es', color
 nombreYcolor()
+
+#Flor, venimos avanzando con mayor seguridad cada vez, la evaluacion y tu forma de resolver los ejercicios
+#no es mas que una muestra de eso. Incluyes e integras los conocimientos y eso hace que cada vez que te enfrentas a una consigna
+#sean menos las dudas y mas las ideas de como resolverlo.
+
+#10/10

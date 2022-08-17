@@ -38,3 +38,7 @@ def nombre():
 
 nameCol = nombre()
 print(nameCol)
+
+#Alejandro, muy limpio tu codigo, excelente la logica y resolucion!
+
+#10/10
