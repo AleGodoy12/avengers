@@ -14,3 +14,24 @@
 ## -Dado el DNI de un pasajero, ver a qué país viaja.
 ## -Dado un país, mostrar cuántos pasajeros viajan a ese país.
 ## -Salir del programa.
+
+
+
+
+lista_Ciudades = []
+def agregarciudades():
+    nueva_ciudad = input("ingrese una nueva ciudad")
+    lista_Ciudades.append(nueva_ciudad)
+    confirmacion = input("quiere agregar una nueva ciudad  [S/N]")
+    while confirmacion == "S":
+        nueva_ciudad = input("ingrese una nueva ciudad")
+        lista_Ciudades.append(nueva_ciudad)
+        confirmacion = input("quiere agregar una nueva ciudad  [S/N]")
+    return lista_Ciudades
+variable = tuple(agregarciudades())
+print(variable)
+
+
+
+
+
