@@ -3,18 +3,18 @@
 # 1. Crea un diccionario donde la clave sea el nombre del usuario y el valor sea el teléfono (no es necesario validar).
 # Tendrás que ir pidiendo contactos hasta el usuario diga que no quiere insertar mas. No se podrán meter nombres repetidos.
 
-dicc= {}
+palabras= {}
 
 while True:
     clave= input("Ingrese su nombre: ")
     if clave == "x":
         break
     valor= int(input("Ingrese su número de telefono: "))
-    if clave not in dicc:
-        dicc[clave] = valor
+    if clave not in palabras:
+        palabras[clave] = valor
     else:
         print("No se puede repetir el nombre")        
-print(dicc)
+print(palabras)
 
 
 # 2. Crea una tupla con los meses del año, pide números al usuario, si el numero esta entre 1 y la longitud máxima
@@ -47,13 +47,13 @@ print("Hay", contador ,"numeros repetidos")
 # 4. Crea un programa e inserte los valores del 50 al 100 en una lista
 
 
-lista= list(range(50,101))
-print (lista)
+listita= list(range(50,101))
+print (listita)
 
 # 5. Escribir un programa que almacene las asignaturas de un curso (por ejemplo Matemáticas, Física, Química, 
 # Historia y Lengua) en una lista y la muestre por pantalla.
 
 
-asignaturas = ["Matemáticas", "Física", "Química", "Historia", "Lengua"]
-for asignatura in asignaturas:
+materias = ["Matemáticas", "Física", "Química", "Historia", "Lengua"]
+for asignatura in materias:
     print("Yo estudio " +asignatura)
