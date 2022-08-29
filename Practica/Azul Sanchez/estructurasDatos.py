@@ -4,8 +4,8 @@
 
 dicc= {}
 
-while True:
-    clave= input("Ingrese su nombre: ")
+while True:                                              #se ejeute el bucle mientras sea verdadero
+    clave= input("Ingrese su nombre o x para finalizar la operación: ")
     if clave == "x":
         break
     valor= int(input("Ingrese su número de telefono: "))
@@ -21,7 +21,7 @@ print(dicc)
 # muestra el contenido de esa posición sino muestra un mensaje de error. 
 # El programa termina cuando el usuario introduce un cero.
 
-meses= ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"]
+meses= ("enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre")
 mes= 1
 
 while mes != 0:
@@ -33,14 +33,10 @@ while mes != 0:
 
 #3. Crea una tupla con números, pide un numero por teclado e indica cuantas veces se repite.
 
-tuplas= (4, 3, 5, 9, 7, 3, 3, 5, 7, 1,)
-numero= int(input("Ingrese números: "))
-
-contador= 0 
-for i in tuplas:
-    if numero == i:
-        contador += 1
-print("Hay", contador ,"numeros repetidos")
+tuplas= (4, 3, 5, 9, 7, 3, 3, 5, 7, 1,3)
+print (tuplas)
+numero= int(input("Ingrese un numero para saber cuantas veces se repite: "))
+print ("El", numero, "esta repetido", tuplas.count(numero), " veces")
 
 #4. Crea un programa e inserte los valores del 50 al 100 en una lista
 

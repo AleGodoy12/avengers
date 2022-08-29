@@ -49,11 +49,11 @@ numerosMenores (listaNumeros, numeroNuevo)
 # cada una compuesta por un número de la lista original y la cantidad de veces que aparece en ella. 
 # Por ejemplo, si la lista original es [5,16,2,5,57,5,2] la nueva lista contendrá: [(5,3), (16,1), (2,2), (57,1)]
 
-listaFinal= []
-def elementosTupla(listaNueva):
-    for i in listaNueva:
-        if(i, listaNueva.count(i)) not in listaFinal:
-            listaFinal.append ((i, listaNueva.count(i)))
-            print(f"Mi lista nueva con la tupla queda {listaNueva}")
-elementosTupla(listaNueva)
+# listaFinal= []
+# def elementosTupla(listaNueva):
+#     for i in listaNueva:
+#         if(i, listaNueva.count(i)) not in listaFinal:
+#             listaFinal.append ((i, listaNueva.count(i)))
+#             print(f"Mi lista nueva con la tupla queda {listaNueva}")
+# elementosTupla(listaNueva)
 
