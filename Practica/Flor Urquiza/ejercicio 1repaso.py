@@ -44,7 +44,7 @@ listaNueva = []
 def numerosMenores (listaNumeros, numeroNuevo):     
     for elementoListaNumeros in listaNumeros:      
         if elementoListaNumeros < numeroNuevo:  
-            listaNueva.append(elementoListaNumeros)    
+            listaNueva.append(elementoListaNumeros)   
 
     print(f'La lista con los números menores a {numeroNuevo} es  {numeroNuevo}') 
 
