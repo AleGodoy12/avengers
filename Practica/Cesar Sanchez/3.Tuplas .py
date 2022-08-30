@@ -4,7 +4,15 @@
 
 # El programa termina cuando el usuario introduce un cero
 
+""" meses= ("enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre")
+mes= 1
 
+while mes != 0:
+    mes= int(input("Ingrese un numero del 1 al 12: "))
+    if (mes >=1 and mes <=12):
+        print(meses[mes-1])       # -1 para que me coincida el numero con el mes pq empieza de 0
+    else:
+        print("Error!") """
 
 # 2.  Crea una tupla con números, pide un numero por teclado e indica cuantas veces se repite.
 
@@ -35,12 +43,3 @@ print (f'La posición {indice} tiene un valor de {valor}' ) """
 
 
 
-
-
-
-
-
-""" numbers = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
-indc = int(input("Ingrese un indice: "))
-a = numbers[indc]
-print("El indice es " + str(indc) + " y su valor es " + str(a)) """

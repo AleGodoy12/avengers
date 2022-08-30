@@ -14,16 +14,23 @@ print ("La fecha que ingreso es ", dia ,"/",mesesAnio[mes], "/",anio) """
 # 2. Escribir un programa que cree un diccionario de traducción español-inglés. El usuario introducirá las palabras en español e inglés separadas por dos puntos, y cada par <palabra>:<traducción> separados por comas. El programa debe crear un diccionario con las palabras y sus traducciones. Después pedirá una frase en español y utilizará el diccionario para traducirla palabra a palabra. Si una palabra no está en el diccionario debe dejarla sin traducir.
 
 
-""" diccionario = { "hola" : "Hello", "buen día" : "good day", "¿cómo estás? ": "How are you" , "hasta luego": "Bye" }
+""" dicc= {"hola": "hello", "casa": "house", "azul": "blue", "rosa": "pink"}
 
-palabra = str (input ("Escribe una palabra: ")).lower()
+palabra= input("Ingrese una frase en español: ")
 
-if palabra in diccionario :
+lista = palabra.split()                  #split=  guarda cada palabra en un array
 
-    print ("La traducción de ", palabra, "es: ", diccionario[palabra])
+for palabra in lista:
 
-else:
-    print("La palabra ingresada no se encuentra en el diccionario") """
+    if palabra in dicc:
+
+        print(dicc[palabra])
+
+    else:
+
+        print("La palabra no se encuentra")
+        
+print(lista) """
 
 
 
