@@ -31,24 +31,24 @@ print(lista)
 
 #3. Declare un diccionario y manipule sus datos utilizando los metodos: pop, update, get, copy y zip.
 
-# dicc= {"nombre": "azul", "edad": "22", "animales": "perro", "comida": "pastel de papa", "color":"rosa" }
+dicc= {"nombre": "azul", "edad": "22", "animales": "perro", "comida": "pastel de papa", "color":"rosa" }
 
-# dicc.pop("color")
-# print("Se borra el color", dicc)
+dicc.pop("color")
+print("Se borra el color", dicc)
 
-# mascotas= {"animales":["gato"]}
-# dicc.update(mascotas)
-# print("Se modifica perro por gato", dicc)
+mascotas= {"animales":["gato"]}
+dicc.update(mascotas)
+print("Se modifica perro por gato", dicc)
 
-# print("Buscamos la edad:", dicc.get("edad"))
+print("Buscamos la edad:", dicc.get("edad"))
 
-# copia= dicc.copy()
-# print("Se hace copia de dicc", copia)
+copia= dicc.copy()
+print("Se hace copia de dicc", copia)
 
-# clave= ["nombre", "edad", "color"]
-# valor= ["azul", 22, "rosa"]
-# dicc1= zip(clave, valor)
+clave= ["nombre", "edad", "color"]
+valor= ["azul", 22, "rosa"]
+dicc1= zip(clave, valor)
     
-# for dato, info in zip(clave, valor):
-#     print(dato, ":", info,)
+for dato, info in zip(clave, valor):
+    print(dato, ":", info,)
 
