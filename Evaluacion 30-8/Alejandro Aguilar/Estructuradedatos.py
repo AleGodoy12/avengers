@@ -7,13 +7,13 @@
 # 1. Generar un diccionario con los nombres de las materias del secundario y el nombre de cada docente. 
 # Cambiar el nombre de dos docentes y mostrar por pantalla con esta modificacion.
 
-materias = {"Laura" : "Matematica",
-            "Federico" : "Geografia",
-            "Nicolas" : "Lengua"}
-print("La lista de docentes con sus respectivas materias es:", materias)
-materias["Matemática"] = "Esteban"
-materias["Geografia"] = "Lucia"
-print("La lista actualizada al dia de la fecha es: " , materias)
+# materias = {"Laura" : "Matematica",
+#             "Federico" : "Geografia",
+#             "Nicolas" : "Lengua"}
+# print("La lista de docentes con sus respectivas materias es:", materias)
+# materias["Matemática"] = "Esteban"
+# materias["Geografia"] = "Lucia"
+# print("La lista actualizada al dia de la fecha es: " , materias)
 
 # 2. Crea un programa que pida al usuario números, genera en una lista, cuando el usuario ingrese un 0 dejaremos
 # de insertar. Por último, muestra los números ordenados de mayor a menor
@@ -28,6 +28,7 @@ while digitos !=0 :
     digitos = int(input("Ingresa un numero: "))
 
 lista.sort()
+lista.reverse()
 print (lista)
 
 
