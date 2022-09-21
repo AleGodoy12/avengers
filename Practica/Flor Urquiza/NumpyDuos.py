@@ -1,6 +1,5 @@
 # # Ejercicios para realizar en equipo con las duplas asignadas. Cada equipo va a explicar un ejercicio de forma aleatoria en la puesta en comun.
 
-
 import numpy as np
 
 # 1. Crear una matriz 3x3 con valores del 0 al 8
@@ -65,8 +64,8 @@ print(arreglo_4)
 # # #        [ 0.91,  0.92,  0.93,  0.94,  0.95,  0.96,  0.97,  0.98,  0.99,  1.  ]]) -->
 
 print("\nEjercicio 5:\n")
-arreglo_5 = np.arange(0, 1.01, 0.01)
-print(arreglo_5)
+matriz_5 = np.arange(0.01, 1.01, 0.01).reshape(10,10)
+print(matriz_5)
 
 
 
@@ -82,8 +81,8 @@ print(arreglo_6)
 
 
 
-# # 7. Generar pares de apellidos y nombres y devolver sus índices. (primero por apellido, luego por nombre).
-# # <!-- OUTPUT [1 2 0] -->
+# 7. Generar pares de apellidos y nombres y devolver sus índices. (primero por apellido, luego por nombre).
+# <!-- OUTPUT [1 2 0] -->
 
 apellidos = ('Zeta', 'Arapa', 'Diaz')
 nombre = ('Andres', 'Carla', 'Gustavo')
