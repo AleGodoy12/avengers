@@ -7,7 +7,7 @@ def lanzamiento(): #Se define la función lanzamiento
         sumatoria = (dado1+dado2) #Declaramos variable sumatoria para sumar las variables dados
         comprobacionResultados(sumatoria) #Ejecutamos la funcion comprobacionResultados
     else:
-        print("Saliendo del juego...")
+        print("Saliendo del juego...") # Si el usuario presiona la tecla "N", entonces el juego finaliza
 def comprobacionResultados(sumatoria): #Definimos la funcion comprobacionResultados, usando como parametro sumatoria
     if sumatoria == 4: #Declaramos la condición: si la sumatoria es igual a 4, entra al if
         print ("Ganaste!")
